@@ -43,13 +43,7 @@ export const knexConfig: { [key: string]: Knex.Config } = {
       max: 10,
     },
     migrations: {
-      directory: './src/database/migrations',
-      stub: './src/database/migration.stub',
       tableName: 'knex_migrations',
-    },
-    seeds: {
-      directory: './src/database/seeds',
-      stub: './src/database/seed.stub',
     },
   },
 
@@ -65,13 +59,7 @@ export const knexConfig: { [key: string]: Knex.Config } = {
       max: 10,
     },
     migrations: {
-      directory: './src/database/migrations',
-      stub: './src/database/migration.stub',
       tableName: 'knex_migrations',
-    },
-    seeds: {
-      directory: './src/database/seeds',
-      stub: './src/database/seed.stub',
     },
   },
 };
